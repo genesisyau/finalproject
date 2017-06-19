@@ -1,0 +1,181 @@
+.container-fluid{
+  padding: 0;
+}
+
+.container-fluid img{
+    padding-left: 0;
+    width: 100%;
+}
+
+
+.container-fluid div{
+    padding: 0;
+}
+
+.allword{
+  position: absolute;
+  color:white;
+}
+.navbar-default{
+  text-decoration:none;
+  background: #728ca3;
+}
+.navbar-default a{
+  text-decoration:none;
+  color:white;
+  margin-left: 2%;
+}
+
+@media (min-width: 360px) {
+  .text1{
+    top:30%;
+    left: 20%;
+  }
+  .allword{
+    position: absolute;
+    color:white;
+    font-size: 70%;
+  }
+  .word-1{
+    font-size: 300%;
+  }
+
+  .text2{
+    top:10%;
+    left: 30%;
+  }
+  .middle{
+    margin-top: 30px;
+    margin-left: 00px;
+  }
+  .word-2-1{
+    font-size: 300%;
+  }
+  .form-control{
+    width: 300px;
+  }
+
+  .btn{
+    margin-top: 20PX;
+  }
+
+  .text3{
+    top:30%;
+    left: 15%;
+  }
+  .word-3-1{
+    font-size:150%;
+  }
+}
+@media (min-width: 768px) {
+  .text1{
+    top:30%;
+    left: 20%;
+  }
+  .allword{
+    position: absolute;
+    color:white;
+    font-size: 100%;
+  }
+  .word-1{
+    font-size: 300%;
+  }
+
+  .text2{
+    top:10%;
+    left: 30%;
+  }
+  .middle{
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .word-2-1{
+    font-size: 300%;
+  }
+  .form-control{
+    width: 400px;
+  }
+
+  .btn{
+    margin-top: 40PX;
+  }
+
+  .text3{
+    top:30%;
+    left: 15%;
+  }
+  .word-3-1{
+    font-size:150%;
+  }
+}
+@media (min-width: 1280px) {
+
+  .text1{
+    top:30%;
+    left: 20%;
+  }
+  .allword{
+    position: absolute;
+    color:white;
+    font-size: 200%;
+  }
+  .word-1{
+    font-size: 300%;
+  }
+
+  .text2{
+    top:10%;
+    left: 30%;
+  }
+  .middle{
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+  .word-2-1{
+    font-size: 300%;
+  }
+  .form-control{
+    width: 400px;
+  }
+
+  .btn{
+    margin-top: 40PX;
+  }
+
+  .text3{
+    top:30%;
+    left: 15%;
+  }
+  .word-3-1{
+    font-size:150%;
+  }
+}
+
+@keyframes blink {
+	0%{opacity: 0}
+	50%{opacity: 1}
+}
+.word-1 {
+  animation: blink 4s;
+}
+.word-1-2 {
+  animation: blink 6s;
+}
+.word-1-3 {
+  animation: blink 8s;
+}
+.word-1-4 {
+  animation: blink 10s;
+}
+.word-1-5 {
+  animation: blink 12s;
+}
+
+.middle {
+  transition: 2s ease;
+  opacity: 0;
+}
+
+.input:hover .middle{
+    opacity: 1;
+}
