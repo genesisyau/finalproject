@@ -128,12 +128,13 @@
   }
   .middle{
     margin-top: 30px;
+    margin-left: 1%;
   }
   .word-2-1{
     font-size: 300%;
   }
   .form-control{
-    width: 400px;
+    width: 450px;
   }
 
   .btn{
