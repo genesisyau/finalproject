@@ -59,6 +59,10 @@ h1{
   border-color: #274c77;
 }
 
+button:hover{
+  color:#fff;
+}
+
 .navbar{
   background-color:#274c77;
 }
