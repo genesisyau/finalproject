@@ -1,0 +1,34 @@
+body{
+  background-color: #728ca3;
+}
+.from{
+  color: white;
+  margin:5px auto;
+}
+#containerform{
+  margin-top: 60px;
+}
+#containerform p{
+    color:white;
+}
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #73c0f4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #274c77}
+
+.button:active {
+  background-color: #274c77;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

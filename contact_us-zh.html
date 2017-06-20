@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<head>
+<html>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>FAQ-zh</title>
+    <title>contact_us-zh</title>
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/FAQ.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
-    <link href="css/FAQ.css" rel="stylesheet">
+    <link href="css/contact_us.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" sizes="16x16">
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,66 +45,36 @@
                       <a class="nav-link" href="#">登入</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="FAQ-en.html">ENG</a>
+                      <a class="nav-link" href="contact_us-en.html">ENG</a>
                   </li>
                 </ul>
             </div>
         </div>
     </nav>
-      <div class="container-fluid" id="hero-img">
-        <img src="img/FAQ.jpg" width=100%>
+
+    <div class="container-fluid" id="hero-img">
+      <img src="img/contact_us.jpg" width=100%>
+    </div>
+
+    <div class="container" id="containerform">
+      <div class="col-xs-5 col-md-5 col-lg-5 from">
+      <p>你的名字*</p>
+      <input class="form-control" id="yourname">
       </div>
-
-      <div class="container" id="container2">
-
-          <div class="card">
-            <a onclick="myFunction1()" type="button" class="btn btn-default btn-sm">
-              <div class="col-xs-12 col-md-12 col-lg-12 Q1 ">
-              為什麼要做這個網頁?
-              </div>
-            </a>
-            <div class="col-xs-12 col-md-12 col-lg-12 AWS1" id="myDIV1">
-              保護動物，不希望人類為了小小的享受，而減少牠們的生活空間。(如北極熊)<br>
-              許多含有化學物質的產品會對人類和環境有害。<br>
-              希望引起更多人注意本問題，全球暖化人人有責。
-            </div>
-          </div>
-
-          <div class="card">
-            <a onclick="myFunction2()" type="button" class="btn btn-default btn-sm">
-              <div class="col-xs-12 col-md-12 col-lg-12 Q1 ">
-              我們的目標對象是誰?
-              </div>
-            </a>
-            <div class="col-xs-12 col-md-12 col-lg-12 AWS1" id="myDIV2">
-              我們的目標對象是所有人，希望所有人都能夠看得到！
-            </div>
-          </div>
-
-          <div class="card">
-            <a onclick="myFunction3()" type="button" class="btn btn-default btn-sm">
-              <div class="col-xs-12 col-md-12 col-lg-12 Q1 ">
-              網頁導航
-              </div>
-            </a>
-            <div class="col-xs-12 col-md-12 col-lg-12 AWS1" id="myDIV3">
-            <img src="img/FAQ_Q3.jpg" width=100%>
-            </div>
-          </div>
-
-          <div class="card">
-            <a onclick="myFunction4()" type="button" class="btn btn-default btn-sm">
-              <div class="col-xs-12 col-md-12 col-lg-12 Q1 ">
-              七天挑戰是什麼?
-              </div>
-            </a>
-            <div class="col-xs-12 col-md-12 col-lg-12 AWS1" id="myDIV4">
-              七天挑戰是一個以綠色生活為主的活動，<br>
-              主要目的是想讓大家在七天內明白到想要實行綠色生活不會太困難。<br>
-              使用者參加後每一天都會有不同的任務，共七天。
-            </div>
-          </div>
+      <div class="col-xs-5 col-md-5 col-lg-5 from">
+      <p>你的EMAIL*</p>
+      <input class="form-control" id="yourname">
       </div>
+      <div class="col-xs-5 col-md-5 col-lg-5 from">
+      <p>建議*</p>
+      <input class="form-control" id="yourname">
+      </div>
+      <div class="col-xs-5 col-md-5 col-lg-5 from">
+      <p>內容*</p>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+      <button class="button" data-toggle="modal" data-target="#myModal">確定</button>
+      </div>
+    </div>
 
     <footer class="py-5 white-bg">
         <div class="row f_icon">
@@ -117,5 +87,5 @@
           </div>
     </footer>
 
-</body>
+  </body>
 </html>
