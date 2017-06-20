@@ -1,9 +1,9 @@
 function myFunction1() {
-var x = document.getElementById('garden');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
+var n = document.getElementById('garden');
+    if (n.style.display === 'none') {
+        n.style.display = 'block';
     } else {
-        x.style.display = 'none';
+        n.style.display = 'none';
     }
 }
 
