@@ -35,7 +35,7 @@ hr{
   border: none;
 }
 
-h2{
+h2,h3{
   color: #274c77;
 }
 p,h4,footer{
@@ -50,12 +50,17 @@ h1{
 .btn{
   color: #274c77;
   border-color: #274c77;
+  background-color: #fff;
 }
 
 .btn:hover{
   color: #fff;
   background-color:#274c77;
   border-color: #274c77;
+}
+
+button:hover{
+  color:#fff;
 }
 
 .navbar{
