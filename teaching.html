@@ -6,38 +6,30 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/teaching.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" sizes="16x16">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script>
-            $('button').click(function() {
-            $('.garden').toggle('slow', function() {
-            // Animation complete.
-            });
-            });
-        </script>
 </head>
 
 <body>
   <!--fb plugin-->
   <div id="fb-root"></div>
 <script>
-window.fbAsyncInit = function() {
-  FB.init({
-    appId            : 'finalntut',
-    autoLogAppEvents : true,
-    xfbml            : true,
-    version          : 'v2.9'
-  });
-  FB.AppEvents.logPageView();
-};
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : 'finalntut',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v2.9'
+        });
+        FB.AppEvents.logPageView();
+      };
 
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+</script>
 
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,7 +59,7 @@ window.fbAsyncInit = function() {
                         <a class="nav-link" href="#">Donate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="reasons-zh.html">中文</a>
+                        <a class="nav-link" href="teaching-zh.html">中文</a>
                     </li>
                 </ul>
             </div>
@@ -101,11 +93,11 @@ window.fbAsyncInit = function() {
 
         <hr>
 
-        <p>
-            <button class="btn btn-lg">Gardening Tips &#8595;</button>
-        </p>
 
-        <div class="row">
+            <a onclick="myFunction()" <button class="btn btn-lg" id="gardenbtn">Gardening Tips &#8595;</button></a>
+            <p></p>
+          <div id="garden">
+        <div class="row" >
             <div class="col-sm-6 my-6">
                 <div class="card">
                     <img class="card-img-top img-fluid mx-auto" src="img/flowers.png">
@@ -151,13 +143,14 @@ window.fbAsyncInit = function() {
                   </div>
               </div>
             </div>
-
+          </div>
             <hr>
 
-            <p>
-                <button class="btn btn-lg">Crafts &#8595;</button>
-            </p>
 
+              <a onclick="myFunction2()"<button class="btn btn-lg" id="craftbtn">Crafts &#8595;</button></a>
+                <p></p>
+
+                <div id="craft">
             <div class="row">
                 <div class="col-sm-6 my-6">
                     <div class="card">
@@ -202,7 +195,7 @@ window.fbAsyncInit = function() {
                       </div>
                   </div>
                 </div>
-
+              </div>
 
         <hr>
 
@@ -222,10 +215,11 @@ window.fbAsyncInit = function() {
     </div>
 
 
-
+    <script src="js/teaching.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
 
 </body>
 </html>
