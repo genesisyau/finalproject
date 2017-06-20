@@ -8,10 +8,10 @@ var x = document.getElementById('garden');
 }
 
 function myFunction2() {
-var x = document.getElementById('craft');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
+var y = document.getElementById('craft');
+    if (y.style.display === 'none') {
+        y.style.display = 'block';
     } else {
-        x.style.display = 'none';
+        y.style.display = 'none';
     }
 }
