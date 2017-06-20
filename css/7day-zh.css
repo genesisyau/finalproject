@@ -1,3 +1,6 @@
+body{
+  background-color: #728ca3;
+}
 .container-fluid{
   padding: 0;
 }
@@ -24,6 +27,9 @@
   text-decoration:none;
   color:white;
   margin-left: 2%;
+}
+.mdl-card textarea{
+    width: 90%;
 }
 
 @media (min-width: 360px) {
@@ -59,12 +65,37 @@
     margin-top: 40PX;
   }
 
-  .text3{
-    top:30%;
-    left: 20%;
+  .sentence{
+    text-align:center;
+    font-size:150%;
+    border-radius: 15px 15px 0 0;
+    margin: 30px 30px 0 30px;
+    background-color: #73c0f4;
+    padding: 0;
   }
-  .word-3-1{
-    font-size:170%;
+  .form-control{
+    margin: 0 auto;
+  }
+  #messageInput{
+    width:90%;
+    margin-bottom: 60px;
+  }
+  ul {
+    list-style: none;
+    height: 10%;
+  }
+  ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 24px;
+  }
+  .mdl-card{
+    font-size: 130%;
+    border-radius: 0 0 15px 15px ;
+    margin: 0 30px 0 30px;
+    background-color: white;
   }
 }
 @media (min-width: 768px) {
@@ -99,12 +130,37 @@
     margin-top: 40PX;
   }
 
-  .text3{
-    top:30%;
-    left: 30%;
+  .sentence{
+    text-align:center;
+    font-size:150%;
+    border-radius: 15px 15px 0 0;
+    margin: 30px 60px 0 60px;
+    background-color: #73c0f4;
+    padding: 0;
   }
-  .word-3-1{
-    font-size:170%;
+  .form-control{
+    margin: 0 auto;
+  }
+  #messageInput{
+    width:80%;
+    margin-bottom: 60px;
+  }
+  ul {
+    list-style: none;
+    height: 10%;
+  }
+  ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 24px;
+  }
+  .mdl-card{
+    font-size: 130%;
+    border-radius: 0 0 15px 15px ;
+    margin: 0 60px 0 60px;
+    background-color: white;
   }
 }
 @media (min-width: 1280px) {
@@ -141,12 +197,37 @@
     margin-top: 40PX;
   }
 
-  .text3{
-    top:30%;
-    left: 30%;
+  .sentence{
+    text-align:center;
+    font-size:300%;
+    border-radius: 15px 15px 0 0;
+    margin: 30px 250px 0 250px;
+    background-color: #73c0f4;
+    padding: 0;
   }
-  .word-3-1{
-    font-size:170%;
+  .form-control{
+    margin: 0 auto;
+  }
+  #messageInput{
+    width:50%;
+    margin-bottom: 60px;
+  }
+  ul {
+    list-style: none;
+    height: 10%;
+  }
+  ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 30px;
+    line-height: 24px;
+  }
+  .mdl-card{
+    font-size: 130%;
+    border-radius: 0 0 15px 15px ;
+    margin: 0 250px 0 250px;
+    background-color: white;
   }
 }
 

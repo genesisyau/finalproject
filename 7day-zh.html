@@ -4,14 +4,20 @@
   <head>
     <meta charset="utf-8">
     <title>7days</title>
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/7dayfirebase.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/7day-zh.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" sizes="16x16">
+
   </head>
 
   <body>
+
     <nav class="navbar-default">
       <a  href="home-zh.html"><img src="img/logo.png" width=35> home</a>
       <a  href="7day-en.html">ENG</a>
@@ -26,7 +32,7 @@
             <div class="word-1-2 ">簡單養成綠色習慣</div>
             <div class="word-1-3 ">連續 7 天，一封給你的信、一個綠色靈感、一件快樂行動</div>
             <div class="word-1-4 ">一起習慣對地球更好一點 ！</div>
-            <div class="word-1-5 ">目前，我們一起完成了22391次綠色行動</div>
+            <div class="word-1-5 ">我們相信，今天，就可以為地球展開行動。</div>
           </span>
       </div>
 
@@ -42,15 +48,19 @@
           </span>
       </div>
 
-      <div class="col-xs-12 col-md-12 col-lg-12" >
-        <img src="img/7daybg3.jpg">
-        <span class="text3 allword">
-          <span class="word-3-1">歡迎留言和我們分享你的行動心得</span>
-        <span>
+      <container-fluid class="inbox">
+          <div class="sentence">歡迎留言和我們分享你的行動心得</div>
+          <div class="mdl-card">
+              <ul id='example-messages' class="example-chat-messages"></ul>
+          </div>
+          <textarea class="form-control" rows="5" id="messageInput" placeholder="Type a message ..."/ ></textarea>
+      </container-fluid>
+
+
+
+
+
       </div>
-
-    </div>
-
   </body>
 
 </html>
