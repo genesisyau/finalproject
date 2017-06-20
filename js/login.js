@@ -28,6 +28,7 @@ $(document).ready(function(){
         promise.catch(function(e){
                       
         });
+                     window.location.href = './task-zh.html';
                                    
      });
     
@@ -41,15 +42,16 @@ $(document).ready(function(){
         const auth = firebase.auth();
         // signUp
         const promise = auth.createUserWithEmailAndPassword(email, pass);
+                     
         promise.catch(function(e){
            
         });
-                     
+         window.location.href = './task-zh.html';            
     });
     
     firebase.auth().onAuthStateChanged(function(user){
         if(user) {
-            console.log(user);
+           // console.log(user);
         } else {
             console.log("not logged in")
         }
