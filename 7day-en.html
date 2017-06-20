@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <title>7days</title>
   <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+          <script defer src="js/material.min.js"></script>
   <script src="js/jquery.js"></script>
-  <script src="js/7dayfirebase.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <!--<script src="js/7dayfirebase.js"></script>-->
+  <!--<script src="js/bootstrap.min.js"></script>-->
+  <script src="js/login.js"></script>
 
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,9 +43,9 @@
           <span class="text2 allword">
             <div class="word-2-1">Get involved now</div>
             <div class="middle">
-              <div class="word-2-2"> NAME: <input type="text" name="lname"  class="form-control"></div>
-              <div class="word-2-3"> EMAIL: <input type="text" name="lname"  class="form-control"></div>
-              <input type="submit" class="btn btn-info" value="Submit">
+              <div class="word-2-2"> NAME: <input type="text" name="lname"  class="form-control" id="email"></div>
+              <div class="word-2-3"> EMAIL: <input type="text" name="lname"  class="form-control" id="password"></div>
+              <input type="submit" class="btn btn-info" value="Submit" 	id="btnSignUp">
             </div>
           </span>
       </div>
