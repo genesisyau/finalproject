@@ -1,6 +1,13 @@
 body{
   background-color: #728ca3;
 }
+#icon{
+  margin-top: 7%;
+  margin-left: 29%;
+}
+#hero-img{
+  padding: 0;
+}
 .from{
   color: white;
   margin:5px auto;
