@@ -28,6 +28,11 @@ body {
   width: 45px;
 }
 
+.img-fluid{
+  height: 100%;
+  width: 100%;
+}
+
 hr{
   height: 1px;
   color: #73c0f4;
