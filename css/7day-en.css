@@ -169,9 +169,10 @@ body{
   .allword{
     position: absolute;
     color:white;
-    font-size: 100%;
+    font-size: 160%;
   }
   .word-1{
+    font-size: 0%;
     font-size: 300%;
   }
 
