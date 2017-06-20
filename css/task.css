@@ -1,0 +1,158 @@
+.container-fluid{
+  padding: 0;
+}
+.container-fluid img{
+    padding-left: 0;
+    width: 100%;
+}
+.container-fluid div{
+    padding: 0;
+}
+.allword{
+  position: absolute;
+  color:white;
+}
+.navbar-default{
+  text-decoration:none;
+  background: #728ca3;
+}
+.navbar-default a{
+  text-decoration:none;
+  color:white;
+  margin-left: 2%;
+}
+
+
+.task1{
+  top:25%;
+  left: 20%;
+}
+
+.task2{
+  top:25%;
+  left: 20%;
+}
+
+.task3{
+  top:25%;
+  left: 20%;
+}
+.task4{
+  top:25%;
+  left: 20%;
+}
+.task5{
+  top:25%;
+  left: 20%;
+}
+.task6{
+  top:25%;
+  left: 20%;
+}
+.task7{
+  top:25%;
+  left: 20%;
+}
+
+@media (min-width: 360px) {
+  .allword{
+    font-size: 100%;
+  }
+  .day{
+    font-size: 140%;
+  }
+}
+@media (min-width: 768px) {
+  .allword{
+    font-size: 150%;
+  }
+  .day{
+    font-size: 140%;
+  }
+}
+@media (min-width: 1280px) {
+  .allword{
+    font-size: 300%;
+  }
+  .day{
+    font-size: 200%;
+  }
+}
+
+@keyframes blink {
+	0%{opacity: 0}
+	100%{opacity: 1}
+}
+.task1{
+  animation: blink 4s;
+}
+
+.task2 {
+  transition: 2s ease;
+  opacity: 0;
+  left: 0;
+}
+
+.t2:hover .task2{
+    left: 20%;
+    opacity: 1;
+}
+
+.task3 {
+  transition: 2s ease;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+
+.t3:hover .task3{
+    opacity: 1;
+    left: 25%;
+    top: 20%;
+}
+
+.task4 {
+  transition: 2s ease;
+  opacity: 0;
+  left: 90%;
+  top: 90%;
+}
+
+.t4:hover .task4{
+    opacity: 1;
+    left: 25%;
+    top: 20%;
+}
+
+.task5 {
+  transition: 2s ease;
+  opacity: 0;
+}
+
+.t5:hover .task5{
+    opacity: 1;
+}
+
+.task6 {
+  transition: 2s ease;
+  top:0%;
+  opacity: 0;
+}
+
+.t6:hover .task6{
+    top:25%;
+    opacity: 1;
+}
+
+.task7 {
+  transition: 2s ease;
+  opacity: 0;
+  left: 80%;
+  top: 0;
+}
+
+.t7:hover .task7{
+    opacity: 1;
+    left: 25%;
+    top: 20%;
+}

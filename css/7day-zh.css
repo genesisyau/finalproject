@@ -28,9 +28,7 @@ body{
   color:white;
   margin-left: 2%;
 }
-.mdl-card textarea{
-    width: 90%;
-}
+
 
 @media (min-width: 360px) {
   .text1{
