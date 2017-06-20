@@ -52,10 +52,10 @@ body{
     margin-left: 00px;
   }
   .word-2-1{
-    font-size: 300%;
+    font-size: 200%;
   }
   .form-control{
-    width: 300px;
+    width: 200px;
   }
 
   .btn{
@@ -64,7 +64,7 @@ body{
 
   .sentence{
     text-align:center;
-    font-size:150%;
+    font-size:100%;
     border-radius: 15px 15px 0 0;
     margin: 30px 30px 0 30px;
     background-color: #73c0f4;
@@ -83,7 +83,7 @@ body{
   }
   ul li {
     font-family: Roboto;
-    font-size: 120%;
+    font-size: 80%;
     font-weight: 300;
     margin-bottom: 30px;
     line-height: 24px;
@@ -132,7 +132,7 @@ body{
     text-align:center;
     font-size:150%;
     border-radius: 15px 15px 0 0;
-    margin: 30px 30px 0 30;
+    margin: 30px 60px 0 60px;
     background-color: #73c0f4;
     padding: 0;
   }
@@ -162,7 +162,6 @@ body{
   }
 }
 @media (min-width: 1280px) {
-
   .text1{
     top:30%;
     left: 20%;
@@ -170,7 +169,7 @@ body{
   .allword{
     position: absolute;
     color:white;
-    font-size: 200%;
+    font-size: 100%;
   }
   .word-1{
     font-size: 300%;
@@ -178,11 +177,11 @@ body{
 
   .text2{
     top:10%;
-    left: 30%;
+    left: 40%;
   }
   .middle{
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 0px;
   }
   .word-2-1{
     font-size: 300%;
