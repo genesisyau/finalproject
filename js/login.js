@@ -42,11 +42,11 @@ $(document).ready(function(){
         const auth = firebase.auth();
         // signUp
         const promise = auth.createUserWithEmailAndPassword(email, pass);
-                     window.location.href = './task-zh.html';
+                     
         promise.catch(function(e){
            
         });
-                     
+         window.location.href = './task-zh.html';            
     });
     
     firebase.auth().onAuthStateChanged(function(user){
